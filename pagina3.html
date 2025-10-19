@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Página 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Mi Página</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="pagina1.html">pagina 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pagina2.html">pagina 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="pagina3.html">pagina 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container mt-4">
+      <h1 class="mb-3">Página 3 - Contenido de ejemplo</h1>
+
+      <p>Párrafo uno: introducción breve para la página 3.</p>
+      <p>Párrafo dos: más detalles y explicaciones sencillas.</p>
+      <p>Párrafo tres: un cierre corto y claro.</p>
+
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <img src="Imagenes/peñanieto.png" class="img-fluid rounded" alt="Imagen 1">
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="Imagenes/mateo.png" class="img-fluid rounded" alt="Imagen 2">
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="Imagenes/tralalero.webp" class="img-fluid rounded" alt="Imagen 3">
+        </div>
+      </div>
+
+      <!-- Bootstrap components: Accordion y Badge -->
+      <div class="accordion mb-3" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Sección desplegable
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Contenido dentro del accordion. Texto simple y directo.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p>Etiquetas de ejemplo: <span class="badge bg-primary">Nuevo</span> <span class="badge bg-secondary">Estudiante</span></p>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
